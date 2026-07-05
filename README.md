@@ -8,7 +8,7 @@ A robust, automated scraper for Bilibili built with Node.js and Puppeteer. It ex
 
 > **Disclaimer:** Ensure your use of this project complies with Bilibili's Terms of Service and all applicable laws and regulations.
 
-> **Security Notice:** This tool dynamically fetches and injects a third-party userscript from GreasyFork at runtime to bypass login restrictions. The repository author assumes no liability for external code execution. You assume all security risks associated with these external dependencies.
+> **Security Notice:** This project downloads and executes a third-party userscript from GreasyFork during the pre-start phase. Review the userscript if you have security concerns, or pin a specific revision if you require a reproducible environment.
 
 ## Features
 

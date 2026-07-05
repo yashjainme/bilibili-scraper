@@ -1,0 +1,16 @@
+{
+  "name": "bilibili-stealth-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes video metadata and comments from Bilibili securely using Puppeteer Extra Stealth",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "prestart": "node download_bypass.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.12.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
